@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: NettyClientService
+
+netty:
+  server:
+    host: ${netty.server.host}
+    port: ${netty.server.port}
