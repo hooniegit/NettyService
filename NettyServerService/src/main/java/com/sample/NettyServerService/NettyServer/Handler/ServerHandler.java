@@ -17,6 +17,8 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
         String[] parts = msg.split(",");
 
         for (String part : parts) {
+        	System.out.println(part);
+        	
             String[] fields = part.split(":");
 
             SampleClass SAMPLE = new SampleClass();
